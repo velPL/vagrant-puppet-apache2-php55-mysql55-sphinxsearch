@@ -1,0 +1,3 @@
+deb http://packages.dotdeb.org wheezy all
+deb http://ftp.hosteurope.de/mirror/packages.dotdeb.org/ wheezy-php55 all
+deb-src http://ftp.hosteurope.de/mirror/packages.dotdeb.org/ wheezy-php55 all

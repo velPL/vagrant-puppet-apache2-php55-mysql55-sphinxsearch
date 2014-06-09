@@ -1,0 +1,1 @@
+*/1 * * * * root . /etc/default/sphinxsearch && if [ "$START" = "yes" ] && [ -x /usr/bin/indexer ]; then /usr/bin/indexer --quiet --rotate -all; fi
