@@ -20,7 +20,8 @@ class baseconfig {
   }
   package { ['mc',
              'phpunit',
-			 'ntp']:
+			 'ntp',
+			 'imagemagick']:
     ensure => present;
   }  
 }
