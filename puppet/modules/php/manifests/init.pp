@@ -47,4 +47,10 @@ class php {
       require => Package['php5-xdebug'];
 	  
   }
+  exec { 'apache install php module':
+	command		=> 'a2enmod php5 && /etc/init.d/apache2 restart',
+	path		=> '/usr/local/bin::/usr/bin:/bin:/usr/sbin/',
+	user		=> 'root';
+  }
+  
 }
